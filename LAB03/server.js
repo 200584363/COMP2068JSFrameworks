@@ -1,4 +1,3 @@
-// Code by Utsav Patel
 const connect = require('connect');
 const url = require('url');
 
