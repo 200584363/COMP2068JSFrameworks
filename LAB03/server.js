@@ -46,8 +46,8 @@ function calculate(req, res) {
 
 // Create and start the server
 const app = connect();
-app.use('/lab2', calculate);
+app.use('/LAB03', calculate);
 
 app.listen(3000, () => {
-    console.log('Server running on http://localhost:3000/lab3');
+    console.log('Server running on http://localhost:3000/LAB03');
 });
